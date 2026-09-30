@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Clinical Ink",
+    "slug": "clinical-ink-prototype",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "clinical-ink",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prototype.clinicalink"
+    },
+    "android": {
+      "package": "com.prototype.clinicalink",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
